@@ -1,5 +1,15 @@
-// Firebase web config for Vågen.
-// Firebase console → Project settings → Your apps → (web app) → SDK setup and configuration → Config.
-// These values are not secret. Your data is protected by Firebase Authentication and the rules in firestore.rules.
-// Leave this as null to have the app ask for the config on first start instead.
-window.VAGEN_FIREBASE = null;
+const firebaseConfig = {
+
+  apiKey: "AIzaSyAY632bUStzmmQICh9JBj-rYULs5N4fQ6M",
+
+  authDomain: "vagen-df0ca.firebaseapp.com",
+
+  projectId: "vagen-df0ca",
+
+  storageBucket: "vagen-df0ca.firebasestorage.app",
+
+  messagingSenderId: "30151905717",
+
+  appId: "1:30151905717:web:ee0455090a03aa70f6c9fc"
+
+};
